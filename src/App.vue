@@ -1,12 +1,11 @@
 <template>
   <div
-    class="bg-[#fffaf3] min-h-screen min-w-screen font-sans text-[#2c2c2c] flex flex-col"
+    class="bg-[#FFCAD4] min-h-screen min-w-screen font-sans text-[#2c2c2c] flex flex-col"
   >
-    <div class="bg-red-500">測試背景顏色是否正常</div>
     <!-- Global Header -->
     <Header />
     <!-- Page Content -->
-    <div>
+    <div class="flex-1">
       <RouterView />
     </div>
 
